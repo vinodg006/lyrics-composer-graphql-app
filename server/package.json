@@ -1,0 +1,31 @@
+{
+  "name": "lyrics-composer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinodg006/lyrics-composer-graphql-app"
+  },
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.3.19",
+    "axios": "^0.21.1",
+    "connect-mongo": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "express-session": "^1.17.2",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.12.4",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.13",
+    "nodemon": "*",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  }
+}
